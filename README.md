@@ -31,7 +31,7 @@ pnpm -F base add sass
 `base`: 是指定的仓库名称，表示要在名为 "base" 的仓库中执行操作。
 `add sass`: 是要执行的操作，即将 `sass` 包添加为依赖项。
 
-### 给本地仓库
+### 给本地仓库添加另一个仓库
 
 ```shell
 cd base
