@@ -2,7 +2,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "base": "pnpm -F base dev"
+    "base": "pnpm -F base dev",
+    "init": "pnpm install"
   },
   "dependencies": {
     "pinia": "^2.1.7",

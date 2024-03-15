@@ -104,12 +104,6 @@ importers:
         specifier: ^2.0.6
         version: 2.0.6(typescript@5.4.2)
 
-  packages/web:
-    dependencies:
-      utils:
-        specifier: workspace:^
-        version: link:../../utils
-
   utils: {}
 
 packages:
