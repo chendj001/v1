@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "PKief.material-icon-theme",
     "esbenp.prettier-vscode",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "sdras.vue-vscode-snippets"
   ]
 }
