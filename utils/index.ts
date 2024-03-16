@@ -12,7 +12,9 @@ export const utilsHook = (name: string) => {
     }
   }
 }
-
+/**
+ * utils解析器
+ */
 export const utilsResolver = () => {
   return (name: string) => {
     return utilsHook(name)
