@@ -22,13 +22,7 @@ export default defineConfig({
         /\.md$/ // .md
       ],
       // global imports to register
-      imports: [
-        'vue',
-        'vue-router',
-        {
-          'naive-ui': ['*']
-        }
-      ],
+      imports: ['vue', 'vue-router'],
       resolvers: [utilsResolver()]
     })
   ],
