@@ -1,7 +1,3 @@
-// 无效值
-const InvalidValue = [null, undefined]
-// 缺省值
-const DefaultValue = '--'
 /**
  * 格式化--金额
  * @param {*} value 值
@@ -10,6 +6,10 @@ const DefaultValue = '--'
  * 1000=>1,000
  */
 export const formatMoney = (value: any, len: number = 2): string => {
+  // 无效值
+  const InvalidValue = [null, undefined]
+  // 缺省值
+  const DefaultValue = '--'
   if (InvalidValue.includes(value)) {
     return DefaultValue
   }
@@ -24,4 +24,10 @@ export const formatMoney = (value: any, len: number = 2): string => {
   }
   parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',')
   return parts.join('.')
+}
+/**
+ * 将字符串首字母大写
+ */
+export const formatCapitalize = (str: string) => {
+  return str.charAt(0).toUpperCase() + str.slice(1)
 }
