@@ -5,6 +5,7 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
+import { arrayDedupe } from 'utils'
 
 console.log(getVer())
 console.log(
@@ -17,6 +18,8 @@ console.log(
   formatMoney(0.1),
   formatMoney(0.101)
 )
+console.log(formatCapitalize('hello'))
+console.log(arrayDedupe([1, 2, 3, 4, 1, 2, 3]))
 
 const app = createApp(App)
 
