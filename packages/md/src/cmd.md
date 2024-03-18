@@ -12,3 +12,7 @@ get-executionpolicy
 set-executionpolicy RemoteSigned
 ```
 此设置会更改为允许本地创建的脚本运行。
+
+3. 或者直接添加到系统变量当中
+
+`C:\Users\法本\AppData\Local\Volta\tools\image\packages\pnpm`
