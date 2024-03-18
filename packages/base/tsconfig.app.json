@@ -1,4 +1,4 @@
 {
   "extends":"../../tsconfig.app.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue","auto-imports.d.ts"],
  }
